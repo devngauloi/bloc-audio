@@ -1,0 +1,11 @@
+#!/bin/sh
+# Git pre-push hook: run catalog validation; abort the push if it fails.
+# Install (from the repo root, in Git Bash):
+#   cp hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+echo "[pre-push] validating catalog + MP3s..."
+powershell -NoProfile -ExecutionPolicy Bypass -File ./validate.ps1
+if [ "$?" -ne 0 ]; then
+  echo "[pre-push] validation FAILED - push aborted."
+  exit 1
+fi
+echo "[pre-push] OK."

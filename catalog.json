@@ -1,0 +1,30 @@
+{
+  "lofi": [
+    { "title": "Roadtrip Yearning Anthem",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/roadtrip-yearning-anthem.mp3" },
+    { "title": "The Darkening Procession",    "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/darkening-procession.mp3" },
+    { "title": "The Evening Vow",             "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/evening-vow.mp3" },
+    { "title": "The Half-Spoken Vow",         "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/half-spoken-vow.mp3" },
+    { "title": "The Slow Grace (Jazz Piano)", "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/slow-grace-jazz-piano.mp3" },
+    { "title": "The Stomp and Still Asking",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/stomp-and-still-asking.mp3" },
+    { "title": "The Stumbling Arrival",       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/stumbling-arrival.mp3" }
+  ],
+  "ambient": [
+    { "title": "The Quieter Vow (Folk Hybrid)", "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/quieter-vow-folk-hybrid.mp3" },
+    { "title": "The Quieter Vow (Warm Pad)",    "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/quieter-vow-warm-pad.mp3" },
+    { "title": "The Slow Grace (Dark Cave)",    "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/slow-grace-dark-cave.mp3" }
+  ],
+  "rain": [
+    { "title": "The Faithful Companion I",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-1.mp3" },
+    { "title": "The Faithful Companion II",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-2.mp3" },
+    { "title": "The Faithful Companion III", "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-3.mp3" },
+    { "title": "The Faithful Companion IV",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-4.mp3" },
+    { "title": "The Faithful Companion V",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-5.mp3" }
+  ],
+  "instrumental": [
+    { "title": "The Non-Stop Engine I",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-1.mp3" },
+    { "title": "The Non-Stop Engine II",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-2.mp3" },
+    { "title": "The Non-Stop Engine III", "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-3.mp3" },
+    { "title": "The Non-Stop Engine IV",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-4.mp3" },
+    { "title": "The Non-Stop Engine V",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-5.mp3" }
+  ]
+}

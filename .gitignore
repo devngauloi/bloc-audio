@@ -1,0 +1,7 @@
+# Raw source audio (pre-encode WAV/FLAC/etc). Keep the published CDN repo lean —
+# only committed .mp3 are served by jsDelivr.
+_src/
+
+# OS junk
+.DS_Store
+Thumbs.db
