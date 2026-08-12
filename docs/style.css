@@ -1,0 +1,121 @@
+/* Bloc Focus — pages that back the app's own promise.
+ *
+ * No webfonts, no analytics, no CDN, no embeds. Not an aesthetic choice: this
+ * site exists to say "nothing leaves your device", and a privacy policy that
+ * phones out to Google for a font refutes itself in the network tab. It is also
+ * what launch-spec §5.2 requires of anything we publish — the page has to be as
+ * clean as the claim.
+ *
+ * Tokens mirror lib/theme/tokens.dart. The display face is Archivo Black in the
+ * app; here the system stack stands in rather than pulling a font over the wire.
+ */
+:root {
+  --bg: #f1e7cb;
+  --paper: #faf3da;
+  --ink: #15110a;
+  --ink-soft: #3a3220;
+  --ink-mute: #7a6e55;
+  --lime: #bbe03a;
+  --hairline: rgba(21, 17, 10, 0.16);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0 20px 72px;
+  background: var(--bg);
+  color: var(--ink-soft);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+main, header { max-width: 720px; margin: 0 auto; }
+
+header {
+  padding: 48px 0 8px;
+  border-bottom: 1.5px solid var(--ink);
+  margin-bottom: 32px;
+}
+
+.mark {
+  display: inline-block;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  font-size: 15px;
+  color: var(--ink);
+  text-decoration: none;
+  line-height: 1.05;
+}
+
+h1 {
+  color: var(--ink);
+  font-size: 40px;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  margin: 18px 0 6px;
+}
+
+h2 {
+  color: var(--ink);
+  font-size: 21px;
+  margin: 40px 0 10px;
+}
+
+.meta { color: var(--ink-mute); font-size: 15px; margin: 0; }
+
+a { color: var(--ink); text-decoration-color: var(--ink-mute); }
+a:hover { text-decoration-color: var(--ink); }
+
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+
+strong { color: var(--ink); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 15px;
+  /* Long policy URLs must not push the page sideways on a phone. */
+  display: block;
+  overflow-x: auto;
+}
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: top;
+}
+th { color: var(--ink); }
+
+.card {
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin: 28px 0;
+}
+
+.todo {
+  background: #fff3cd;
+  border: 1.5px dashed var(--ink);
+  border-radius: 16px;
+  padding: 16px 20px;
+  margin: 24px 0;
+  color: var(--ink);
+}
+
+footer {
+  max-width: 720px;
+  margin: 56px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+  color: var(--ink-mute);
+  font-size: 14px;
+}
+
+nav a { margin-right: 18px; }
