@@ -1,30 +1,602 @@
 {
   "lofi": [
-    { "title": "Roadtrip Yearning Anthem",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/roadtrip-yearning-anthem.mp3" },
-    { "title": "The Darkening Procession",    "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/darkening-procession.mp3" },
-    { "title": "The Evening Vow",             "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/evening-vow.mp3" },
-    { "title": "The Half-Spoken Vow",         "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/half-spoken-vow.mp3" },
-    { "title": "The Slow Grace (Jazz Piano)", "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/slow-grace-jazz-piano.mp3" },
-    { "title": "The Stomp and Still Asking",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/stomp-and-still-asking.mp3" },
-    { "title": "The Stumbling Arrival",       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/stumbling-arrival.mp3" }
+    {
+      "title": "Cathedral 3am",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-cathedral-3am.mp3"
+    },
+    {
+      "title": "Horn Stabs (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-horn-stabs-2.mp3"
+    },
+    {
+      "title": "Horn Stabs (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-horn-stabs-3.mp3"
+    },
+    {
+      "title": "Horn Stabs",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-horn-stabs.mp3"
+    },
+    {
+      "title": "Open Ground (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-open-ground-2.mp3"
+    },
+    {
+      "title": "Open Ground",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-open-ground.mp3"
+    },
+    {
+      "title": "Porch Light",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-porch-light.mp3"
+    },
+    {
+      "title": "Slow Hold (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-slow-hold-2.mp3"
+    },
+    {
+      "title": "Slow Hold",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-slow-hold.mp3"
+    },
+    {
+      "title": "Study Warm",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/chillhop-study-warm.mp3"
+    },
+    {
+      "title": "Focus",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/cyberpunk-focus.mp3"
+    },
+    {
+      "title": "The Darkening Procession",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/darkening-procession.mp3"
+    },
+    {
+      "title": "The Evening Vow",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/evening-vow.mp3"
+    },
+    {
+      "title": "The Half-Spoken Vow",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/half-spoken-vow.mp3"
+    },
+    {
+      "title": "Vinyl Midnight",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/jazzhop-vinyl-midnight.mp3"
+    },
+    {
+      "title": "Vinyl Study (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/jazzhop-vinyl-study-2.mp3"
+    },
+    {
+      "title": "Vinyl Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/jazzhop-vinyl-study.mp3"
+    },
+    {
+      "title": "Beach Chill (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/latin-lofi-beach-chill-2.mp3"
+    },
+    {
+      "title": "Beach Chill",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/latin-lofi-beach-chill.mp3"
+    },
+    {
+      "title": "Flamenco Cafe (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/latin-lofi-flamenco-cafe-2.mp3"
+    },
+    {
+      "title": "Flamenco Cafe (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/latin-lofi-flamenco-cafe-3.mp3"
+    },
+    {
+      "title": "Flamenco Cafe",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/latin-lofi-flamenco-cafe.mp3"
+    },
+    {
+      "title": "Bossa Rainy",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-bossa-rainy.mp3"
+    },
+    {
+      "title": "Cyberpunk Sunlit Cafe",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-cyberpunk-sunlit-cafe.mp3"
+    },
+    {
+      "title": "Guitar Ringing Tape (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-guitar-ringing-tape-2.mp3"
+    },
+    {
+      "title": "Guitar Ringing Tape (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-guitar-ringing-tape-3.mp3"
+    },
+    {
+      "title": "Guitar Ringing Tape",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-guitar-ringing-tape.mp3"
+    },
+    {
+      "title": "Hiphop Romantic",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-hiphop-romantic.mp3"
+    },
+    {
+      "title": "Jazz Deep",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-deep.mp3"
+    },
+    {
+      "title": "Jazz Late Night (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-late-night-2.mp3"
+    },
+    {
+      "title": "Jazz Late Night (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-late-night-3.mp3"
+    },
+    {
+      "title": "Jazz Late Night",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-late-night.mp3"
+    },
+    {
+      "title": "Jazz Night Window (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-night-window-2.mp3"
+    },
+    {
+      "title": "Jazz Night Window (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-night-window-3.mp3"
+    },
+    {
+      "title": "Jazz Night Window",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-night-window.mp3"
+    },
+    {
+      "title": "Chillhop Warm Study (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study-2.mp3"
+    },
+    {
+      "title": "Chillhop Warm Study (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study-3.mp3"
+    },
+    {
+      "title": "Chillhop Warm Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study.mp3"
+    },
+    {
+      "title": "Feelgood Study (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-feelgood-study-2.mp3"
+    },
+    {
+      "title": "Feelgood Study (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-feelgood-study-3.mp3"
+    },
+    {
+      "title": "Feelgood Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-feelgood-study.mp3"
+    },
+    {
+      "title": "Guitar Nostalgic Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-guitar-nostalgic-study.mp3"
+    },
+    {
+      "title": "Head Nod Dialogue (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-head-nod-dialogue-2.mp3"
+    },
+    {
+      "title": "Head Nod Dialogue (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-head-nod-dialogue-3.mp3"
+    },
+    {
+      "title": "Head Nod Dialogue",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-head-nod-dialogue.mp3"
+    },
+    {
+      "title": "Rainy Cafe Warm",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-rainy-cafe-warm.mp3"
+    },
+    {
+      "title": "Spanish Lofi Study (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/oud-spanish-lofi-study-2.mp3"
+    },
+    {
+      "title": "Spanish Lofi Study (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/oud-spanish-lofi-study-3.mp3"
+    },
+    {
+      "title": "Spanish Lofi Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/oud-spanish-lofi-study.mp3"
+    },
+    {
+      "title": "Roadtrip Yearning Anthem",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/roadtrip-yearning-anthem.mp3"
+    },
+    {
+      "title": "The Slow Grace (Jazz Piano)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/slow-grace-jazz-piano.mp3"
+    },
+    {
+      "title": "Flamenco Rumba Guitar",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/spanish-flamenco-rumba-guitar.mp3"
+    },
+    {
+      "title": "The Stomp and Still Asking",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/stomp-and-still-asking.mp3"
+    },
+    {
+      "title": "The Stumbling Arrival",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/stumbling-arrival.mp3"
+    }
   ],
   "ambient": [
-    { "title": "The Quieter Vow (Folk Hybrid)", "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/quieter-vow-folk-hybrid.mp3" },
-    { "title": "The Quieter Vow (Warm Pad)",    "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/quieter-vow-warm-pad.mp3" },
-    { "title": "The Slow Grace (Dark Cave)",    "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/slow-grace-dark-cave.mp3" }
+    {
+      "title": "Rainy (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-2.mp3"
+    },
+    {
+      "title": "Rainy (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-3.mp3"
+    },
+    {
+      "title": "Rainy",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy.mp3"
+    },
+    {
+      "title": "Noir Focus (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/cyberpunk-noir-focus-2.mp3"
+    },
+    {
+      "title": "Noir Focus (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/cyberpunk-noir-focus-3.mp3"
+    },
+    {
+      "title": "Noir Focus",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/cyberpunk-noir-focus.mp3"
+    },
+    {
+      "title": "Study Drone (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/jazzhop-study-drone-2.mp3"
+    },
+    {
+      "title": "Study Drone (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/jazzhop-study-drone-3.mp3"
+    },
+    {
+      "title": "Study Drone",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/jazzhop-study-drone.mp3"
+    },
+    {
+      "title": "Study Small Things (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/jazzhop-study-small-things-2.mp3"
+    },
+    {
+      "title": "Study Small Things (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/jazzhop-study-small-things-3.mp3"
+    },
+    {
+      "title": "Study Small Things",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/jazzhop-study-small-things.mp3"
+    },
+    {
+      "title": "Study Unfixed",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/jazzhop-study-unfixed.mp3"
+    },
+    {
+      "title": "Cyberpunk Cozy (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-2.mp3"
+    },
+    {
+      "title": "Cyberpunk Cozy (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-3.mp3"
+    },
+    {
+      "title": "Cyberpunk Cozy Study (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-study-2.mp3"
+    },
+    {
+      "title": "Cyberpunk Cozy Study (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-study-3.mp3"
+    },
+    {
+      "title": "Cyberpunk Cozy Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-study.mp3"
+    },
+    {
+      "title": "Cyberpunk Cozy",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy.mp3"
+    },
+    {
+      "title": "Cyberpunk Rainy Cozy (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-rainy-cozy-2.mp3"
+    },
+    {
+      "title": "Cyberpunk Rainy Cozy (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-rainy-cozy-3.mp3"
+    },
+    {
+      "title": "Cyberpunk Rainy Cozy",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-rainy-cozy.mp3"
+    },
+    {
+      "title": "Cyberpunk Rainy",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-rainy.mp3"
+    },
+    {
+      "title": "Fireplace Night (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-fireplace-night-2.mp3"
+    },
+    {
+      "title": "Fireplace Night (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-fireplace-night-3.mp3"
+    },
+    {
+      "title": "Fireplace Night",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-fireplace-night.mp3"
+    },
+    {
+      "title": "Guitar Packed Room (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-guitar-packed-room-2.mp3"
+    },
+    {
+      "title": "Guitar Packed Room",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-guitar-packed-room.mp3"
+    },
+    {
+      "title": "Hiphop (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-2.mp3"
+    },
+    {
+      "title": "Hiphop (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-3.mp3"
+    },
+    {
+      "title": "Hiphop Grief Piano",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-grief-piano.mp3"
+    },
+    {
+      "title": "Hiphop Study (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-study-2.mp3"
+    },
+    {
+      "title": "Hiphop Study (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-study-3.mp3"
+    },
+    {
+      "title": "Hiphop Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-study.mp3"
+    },
+    {
+      "title": "Hiphop",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop.mp3"
+    },
+    {
+      "title": "Piano Last Desk Hour",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-piano-last-desk-hour.mp3"
+    },
+    {
+      "title": "Piano Late Desk (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-piano-late-desk-2.mp3"
+    },
+    {
+      "title": "Piano Late Desk (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-piano-late-desk-3.mp3"
+    },
+    {
+      "title": "Piano Late Desk",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-piano-late-desk.mp3"
+    },
+    {
+      "title": "Jazz Piano Beats (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lofi-jazz-piano-beats-2.mp3"
+    },
+    {
+      "title": "Jazz Piano Beats (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lofi-jazz-piano-beats-3.mp3"
+    },
+    {
+      "title": "Jazz Piano Beats Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lofi-jazz-piano-beats-study.mp3"
+    },
+    {
+      "title": "Jazz Piano Beats",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lofi-jazz-piano-beats.mp3"
+    },
+    {
+      "title": "The Quieter Vow (Folk Hybrid)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/quieter-vow-folk-hybrid.mp3"
+    },
+    {
+      "title": "The Quieter Vow (Warm Pad)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/quieter-vow-warm-pad.mp3"
+    },
+    {
+      "title": "Rainy Window Pulse (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/rainy-window-pulse-2.mp3"
+    },
+    {
+      "title": "Rainy Window Pulse (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/rainy-window-pulse-3.mp3"
+    },
+    {
+      "title": "Rainy Window Pulse",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/rainy-window-pulse.mp3"
+    },
+    {
+      "title": "The Slow Grace (Dark Cave)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/slow-grace-dark-cave.mp3"
+    },
+    {
+      "title": "Solo Piano Rainy Window (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/solo-piano-rainy-window-2.mp3"
+    },
+    {
+      "title": "Solo Piano Rainy Window (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/solo-piano-rainy-window-3.mp3"
+    },
+    {
+      "title": "Solo Piano Rainy Window",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/solo-piano-rainy-window.mp3"
+    }
   ],
   "rain": [
-    { "title": "The Faithful Companion I",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-1.mp3" },
-    { "title": "The Faithful Companion II",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-2.mp3" },
-    { "title": "The Faithful Companion III", "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-3.mp3" },
-    { "title": "The Faithful Companion IV",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-4.mp3" },
-    { "title": "The Faithful Companion V",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-5.mp3" }
+    {
+      "title": "Empty Apartment (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-empty-apartment-2.mp3"
+    },
+    {
+      "title": "Empty Apartment (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-empty-apartment-3.mp3"
+    },
+    {
+      "title": "Empty Apartment",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-empty-apartment.mp3"
+    },
+    {
+      "title": "Slow Gratitude",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-slow-gratitude.mp3"
+    },
+    {
+      "title": "(chua Gan Nhan) (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan-2.mp3"
+    },
+    {
+      "title": "(chua Gan Nhan) (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan-3.mp3"
+    },
+    {
+      "title": "(chua Gan Nhan)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan.mp3"
+    },
+    {
+      "title": "The Faithful Companion I",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-1.mp3"
+    },
+    {
+      "title": "The Faithful Companion II",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-2.mp3"
+    },
+    {
+      "title": "The Faithful Companion III",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-3.mp3"
+    },
+    {
+      "title": "The Faithful Companion IV",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-4.mp3"
+    },
+    {
+      "title": "The Faithful Companion V",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-5.mp3"
+    },
+    {
+      "title": "Late Desk",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-late-desk.mp3"
+    },
+    {
+      "title": "Late Library Grief (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-late-library-grief-2.mp3"
+    },
+    {
+      "title": "Late Library Grief",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-late-library-grief.mp3"
+    },
+    {
+      "title": "Study Reach (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-study-reach-2.mp3"
+    },
+    {
+      "title": "Study Reach (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-study-reach-3.mp3"
+    },
+    {
+      "title": "Study Reach",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-study-reach.mp3"
+    },
+    {
+      "title": "Felt Piano Study (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/lo-fi-felt-piano-study-2.mp3"
+    },
+    {
+      "title": "Felt Piano Study (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/lo-fi-felt-piano-study-3.mp3"
+    },
+    {
+      "title": "Felt Piano Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/lo-fi-felt-piano-study.mp3"
+    },
+    {
+      "title": "Hiphop Study Deepening",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/lo-fi-hiphop-study-deepening.mp3"
+    },
+    {
+      "title": "Dream Tape (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/lofi-dream-tape-2.mp3"
+    },
+    {
+      "title": "Dream Tape (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/lofi-dream-tape-3.mp3"
+    },
+    {
+      "title": "Dream Tape",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/lofi-dream-tape.mp3"
+    },
+    {
+      "title": "Solo Night Meditation (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/oud-solo-night-meditation-2.mp3"
+    },
+    {
+      "title": "Solo Night Meditation",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/oud-solo-night-meditation.mp3"
+    }
   ],
   "instrumental": [
-    { "title": "The Non-Stop Engine I",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-1.mp3" },
-    { "title": "The Non-Stop Engine II",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-2.mp3" },
-    { "title": "The Non-Stop Engine III", "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-3.mp3" },
-    { "title": "The Non-Stop Engine IV",  "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-4.mp3" },
-    { "title": "The Non-Stop Engine V",   "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-5.mp3" }
+    {
+      "title": "Fresh Commute (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/chillhop-fresh-commute-2.mp3"
+    },
+    {
+      "title": "Fresh Commute (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/chillhop-fresh-commute-3.mp3"
+    },
+    {
+      "title": "Fresh Commute",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/chillhop-fresh-commute.mp3"
+    },
+    {
+      "title": "Jazzy",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/chillhop-jazzy.mp3"
+    },
+    {
+      "title": "Cyberpunk Rain Focus (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/lo-fi-cyberpunk-rain-focus-2.mp3"
+    },
+    {
+      "title": "Cyberpunk Rain Focus",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/lo-fi-cyberpunk-rain-focus.mp3"
+    },
+    {
+      "title": "Hiphop Morning Warmth",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/lo-fi-hiphop-morning-warmth.mp3"
+    },
+    {
+      "title": "Hopeful Rising Instrumental",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/lo-fi-hopeful-rising-instrumental.mp3"
+    },
+    {
+      "title": "Jazz Tender (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/lo-fi-jazz-tender-2.mp3"
+    },
+    {
+      "title": "Jazz Tender",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/lo-fi-jazz-tender.mp3"
+    },
+    {
+      "title": "The Non-Stop Engine I",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-1.mp3"
+    },
+    {
+      "title": "The Non-Stop Engine II",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-2.mp3"
+    },
+    {
+      "title": "The Non-Stop Engine III",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-3.mp3"
+    },
+    {
+      "title": "The Non-Stop Engine IV",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-4.mp3"
+    },
+    {
+      "title": "The Non-Stop Engine V",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/non-stop-engine-5.mp3"
+    }
   ]
 }
