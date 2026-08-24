@@ -1,10 +1,15 @@
 /* Bloc Focus — pages that back the app's own promise.
  *
  * No webfonts, no analytics, no CDN, no embeds. Not an aesthetic choice: this
- * site exists to say "nothing leaves your device", and a privacy policy that
+ * site names every third party the app talks to, and a privacy policy that
  * phones out to Google for a font refutes itself in the network tab. It is also
  * what launch-spec §5.2 requires of anything we publish — the page has to be as
  * clean as the claim.
+ *
+ * The old wording here quoted the app's retired promise verbatim. That string is
+ * banned unconditionally in test/no_unshipped_claims_test.dart, but the test
+ * pumps Flutter screens and never reads site/ — so this file kept serving the
+ * sentence publicly for two days after every other surface was cleaned.
  *
  * Tokens mirror lib/theme/tokens.dart. The display face is Archivo Black in the
  * app; here the system stack stands in rather than pulling a font over the wire.
