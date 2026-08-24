@@ -100,6 +100,24 @@ th { color: var(--ink); }
   margin: 28px 0;
 }
 
+.cta {
+  /* paper, not --lime: the accents are motifs and selected-state fills only,
+   * never a large surface (CLAUDE.md, design tokens). */
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin: 28px 0;
+  /* The app's signature: hard offset, no blur. Mirrors the ambient session card. */
+  box-shadow: 6px 6px 0 var(--ink);
+}
+.cta a {
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 19px;
+}
+.cta .meta { margin-top: 6px; }
+
 .todo {
   background: #fff3cd;
   border: 1.5px dashed var(--ink);
