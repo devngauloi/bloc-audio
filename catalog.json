@@ -437,24 +437,20 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-empty-apartment-3-f.mp3"
     },
     {
+      "title": "Empty Apartment (IV)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-empty-apartment-4-f.mp3"
+    },
+    {
       "title": "Empty Apartment",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-empty-apartment-f.mp3"
     },
     {
+      "title": "Slow Gratitude (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-slow-gratitude-2-f.mp3"
+    },
+    {
       "title": "Slow Gratitude",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-slow-gratitude-f.mp3"
-    },
-    {
-      "title": "The Vanished Ease (II)",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan-2-f.mp3"
-    },
-    {
-      "title": "The Vanished Ease (III)",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan-3-f.mp3"
-    },
-    {
-      "title": "The Vanished Ease",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan-f.mp3"
     },
     {
       "title": "The Faithful Companion I",
@@ -477,6 +473,10 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/faithful-companion-5-f.mp3"
     },
     {
+      "title": "Late Desk (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-late-desk-2-f.mp3"
+    },
+    {
       "title": "Late Desk",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-late-desk-f.mp3"
     },
@@ -495,6 +495,10 @@
     {
       "title": "Study Reach (III)",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-study-reach-3-f.mp3"
+    },
+    {
+      "title": "Study Reach (IV)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/jazzhop-study-reach-4-f.mp3"
     },
     {
       "title": "Study Reach",
