@@ -141,14 +141,6 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-night-window-f.mp3"
     },
     {
-      "title": "Chillhop Warm Study (II)",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study-2-f.mp3"
-    },
-    {
-      "title": "Chillhop Warm Study (III)",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study-3-f.mp3"
-    },
-    {
       "title": "Chillhop Warm Study",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study-f.mp3"
     },
@@ -219,14 +211,6 @@
   ],
   "ambient": [
     {
-      "title": "Rainy (II)",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-2-f.mp3"
-    },
-    {
-      "title": "Rainy (III)",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-3-f.mp3"
-    },
-    {
       "title": "Rainy",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-f.mp3"
     },
@@ -271,11 +255,7 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/jazzhop-study-unfixed-f.mp3"
     },
     {
-      "title": "Cyberpunk Cozy (II)",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-2-f.mp3"
-    },
-    {
-      "title": "Cyberpunk Cozy (III)",
+      "title": "Cyberpunk Cozy",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-3-f.mp3"
     },
     {
@@ -291,10 +271,6 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-study-f.mp3"
     },
     {
-      "title": "Cyberpunk Cozy",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-f.mp3"
-    },
-    {
       "title": "Cyberpunk Rainy Cozy (II)",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-rainy-cozy-2-f.mp3"
     },
@@ -305,10 +281,6 @@
     {
       "title": "Cyberpunk Rainy Cozy",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-rainy-cozy-f.mp3"
-    },
-    {
-      "title": "Cyberpunk Rainy",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-rainy-f.mp3"
     },
     {
       "title": "Fireplace Night (II)",
@@ -549,10 +521,6 @@
     {
       "title": "Fresh Commute",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/chillhop-fresh-commute-f.mp3"
-    },
-    {
-      "title": "Jazzy",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/chillhop-jazzy-f.mp3"
     },
     {
       "title": "No Hurry (II)",
