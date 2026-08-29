@@ -141,6 +141,14 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lo-fi-jazz-night-window-f.mp3"
     },
     {
+      "title": "Chillhop Warm Study (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study-4-f.mp3"
+    },
+    {
+      "title": "Chillhop Warm Study (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study-5-f.mp3"
+    },
+    {
       "title": "Chillhop Warm Study",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/lofi/lofi-chillhop-warm-study-f.mp3"
     },
@@ -211,6 +219,18 @@
   ],
   "ambient": [
     {
+      "title": "Rainy (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-4-f.mp3"
+    },
+    {
+      "title": "Rainy (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-5-f.mp3"
+    },
+    {
+      "title": "Rainy (IV)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-6-f.mp3"
+    },
+    {
       "title": "Rainy",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/chillhop-rainy-f.mp3"
     },
@@ -257,6 +277,14 @@
     {
       "title": "Cyberpunk Cozy",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-3-f.mp3"
+    },
+    {
+      "title": "Cyberpunk Cozy (II)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-4-f.mp3"
+    },
+    {
+      "title": "Cyberpunk Cozy (III)",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-cyberpunk-cozy-5-f.mp3"
     },
     {
       "title": "Cyberpunk Cozy Study (II)",
@@ -311,6 +339,10 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-3-f.mp3"
     },
     {
+      "title": "Hiphop",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-f.mp3"
+    },
+    {
       "title": "Hiphop Grief Piano",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-grief-piano-f.mp3"
     },
@@ -325,10 +357,6 @@
     {
       "title": "Hiphop Study",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-study-f.mp3"
-    },
-    {
-      "title": "Hiphop",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lo-fi-hiphop-f.mp3"
     },
     {
       "title": "Piano Last Desk Hour",
@@ -355,12 +383,12 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lofi-jazz-piano-beats-3-f.mp3"
     },
     {
-      "title": "Jazz Piano Beats Study",
-      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lofi-jazz-piano-beats-study-f.mp3"
-    },
-    {
       "title": "Jazz Piano Beats",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lofi-jazz-piano-beats-f.mp3"
+    },
+    {
+      "title": "Jazz Piano Beats Study",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/ambient/lofi-jazz-piano-beats-study-f.mp3"
     },
     {
       "title": "The Quieter Vow (Folk Hybrid)",
@@ -417,15 +445,15 @@
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chillhop-slow-gratitude-f.mp3"
     },
     {
-      "title": "(chua Gan Nhan) (II)",
+      "title": "The Vanished Ease (II)",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan-2-f.mp3"
     },
     {
-      "title": "(chua Gan Nhan) (III)",
+      "title": "The Vanished Ease (III)",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan-3-f.mp3"
     },
     {
-      "title": "(chua Gan Nhan)",
+      "title": "The Vanished Ease",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/rain/chua-gan-nhan-f.mp3"
     },
     {
@@ -521,6 +549,10 @@
     {
       "title": "Fresh Commute",
       "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/chillhop-fresh-commute-f.mp3"
+    },
+    {
+      "title": "Jazzy",
+      "url": "https://cdn.jsdelivr.net/gh/devngauloi/bloc-audio@main/instrumental/chillhop-jazzy-2-f.mp3"
     },
     {
       "title": "No Hurry (II)",
