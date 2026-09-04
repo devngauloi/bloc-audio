@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study music with no ads — what "no ads" actually means</title>
+<meta name="description" content="&quot;No ads&quot; has three different meanings and most apps only satisfy one. How to test each one yourself in under a minute — plus the question nobody asks a music library: how many distinct recordings does it actually have?">
+<link rel="canonical" href="https://ikibook.com/study-music-no-ads.html">
+<meta name="theme-color" content="#f1e7cb">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Bloc Focus Music">
+<meta property="og:url" content="https://ikibook.com/study-music-no-ads.html">
+<meta property="og:title" content="Study music with no ads — what &quot;no ads&quot; actually means">
+<meta property="og:description" content="&quot;No ads&quot; has three different meanings and most apps only satisfy one. How to test each one yourself in under a minute.">
+<meta property="og:image" content="https://ikibook.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bloc Focus on cream paper, beside a session card reading QUICK 25/5, 25:00, lofi - ambient - rain.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Study music with no ads — what &quot;no ads&quot; actually means">
+<meta name="twitter:description" content="Three different meanings, and how to test each one yourself in under a minute.">
+<meta name="twitter:image" content="https://ikibook.com/og.png">
+
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a class="mark" href="/">BL<br>OC</a>
+  <h1>Study music with no ads —<br>what "no ads" actually means</h1>
+  <p class="meta">Three different claims wear the same two words. Here is how to check
+  each one yourself, without taking anyone's word for it — including ours.</p>
+</header>
+
+<main>
+
+<p>Search for study music without ads and every result says the same thing on the store
+page. Install four of them and you will find they meant four different things. The phrase
+is doing at least three separate jobs:</p>
+
+<table>
+  <tr>
+    <th>What it can mean</th>
+    <th>What still happens</th>
+  </tr>
+  <tr>
+    <td><strong>1. No banner or video ads in the app</strong></td>
+    <td>The usual claim. Says nothing about the other two.</td>
+  </tr>
+  <tr>
+    <td><strong>2. No ads inside the audio</strong></td>
+    <td>Free playlist services insert spots between tracks. Silent for twenty minutes,
+    then a voice at minute twenty-one, in the middle of your session.</td>
+  </tr>
+  <tr>
+    <td><strong>3. No trackers</strong></td>
+    <td>An app with no visible ads can still ship an advertising SDK that reports what
+    you do. You are not being shown ads here — you are being used to aim them
+    elsewhere.</td>
+  </tr>
+</table>
+
+<p>Most people check number one, because it is the only one you can see. Numbers two and
+three are where the surprises live, and both are testable in about a minute.</p>
+
+<h2>How to test each one, yourself</h2>
+
+<ul>
+  <li><strong>For "no ads in the app":</strong> use it on the free tier for a full session
+  without touching anything. Some apps show nothing for the first few minutes by design.</li>
+  <li><strong>For "no ads in the audio":</strong> put the phone in airplane mode and press
+  play. If the music stops, the audio was being streamed and anything can be inserted into
+  that stream later. If it keeps playing, the audio is on your device.</li>
+  <li><strong>For "no trackers":</strong> the app is hard to inspect without tools, but its
+  <em>website</em> is not. Open a terminal and run <code>curl -s</code> on their homepage,
+  then read what it loads. Fonts from a font CDN, an analytics script, a chat widget, a
+  Google-hosted store badge — each of those is a third party being told you visited. A site
+  that claims privacy while pulling six external files is telling you something about how
+  the company thinks, and it costs you one command to find out.</li>
+</ul>
+
+<p>That last test is worth running on us too. This page loads its stylesheet, its icons and
+its preview image from this domain and nothing else — <strong>zero third-party
+requests</strong>, by rule and not by accident. If that ever stops being true, the test will
+say so before we do.</p>
+
+<h2>The question almost nobody asks a music library</h2>
+
+<p>Here is one you will not see in a review: <strong>how many distinct recordings does that
+library actually contain?</strong></p>
+
+<p>Not how many tracks are listed. How many are genuinely different pieces of music. Those
+two numbers come apart more often than you would expect, because a library assembled from
+generated or licensed material accumulates the same recording under several names — a raw
+export, a normalised version, a re-encode with a different filename.</p>
+
+<p>We know this because it happened to us, and the only reason we found it is that we went
+looking. In August 2026 we hashed every row in the catalogue — 152 at the time — and
+compared them byte for byte. The result:</p>
+
+<ul>
+  <li><strong>Seven pairs were byte-identical.</strong> Fourteen listings, seven pieces of
+  music. Plus a third copy of one track that had been re-encoded, so its bytes differed
+  while the music did not.</li>
+  <li>Eight rows came out of the catalogue that day.</li>
+</ul>
+
+<p>Then the interesting part. Refilling those eight slots, the picker screened every
+candidate three ways: hash against all live files, spectral centroid against the mood's
+measured range, and duration. Eight candidates passed all three. <strong>Two of them were
+still the same recording as a track already in the library</strong> — caught only by
+correlating the actual waveforms, at r = 0.99998 and r = 0.99999.</p>
+
+<p>The lesson generalises past us: <strong>a hash proves two files are not byte-identical
+and nothing more.</strong> A re-encoded copy of a track already in the library sails through
+a hash check, matches its own mood's acoustic profile perfectly, and has exactly the right
+duration. Every cheap filter says it is a new song. It is not.</p>
+
+<p>So when a library advertises hundreds of tracks, the honest question is whether anyone
+ever measured. We can tell you what our number means because we built the check. We cannot
+tell you what anyone else's number means, and neither can they unless they did the same
+work.</p>
+
+<h2>Our numbers, and the limits attached to them</h2>
+
+<p><strong>Bloc Focus Music</strong> currently ships <strong>153 tracks across four
+sounds</strong> — lofi, ambient, rain and instrumental — every one of them checked against
+the process above. All instrumental. No voices, so nothing to accidentally listen to
+instead of your work.</p>
+
+<p>On the three meanings of "no ads": no ads in the app, at any tier. No audio ads, because
+nothing is inserted into the stream. No third-party trackers on this site; the app itself
+sends a few anonymous product events, which are <a href="privacy.html">listed one by one in
+the privacy policy</a> rather than summarised away.</p>
+
+<p>What is not true, said plainly:</p>
+
+<ul>
+  <li>153 tracks is a small library next to a streaming service. It is enough not to repeat
+  inside a session; it is not a catalogue you will explore for months.</li>
+  <li>Only the bundled sounds play with no connection. The rest stream, so a session on a
+  train will not be the same experience.</li>
+  <li>The music is AI-generated, instrumental, licensed for commercial use. We say so on
+  the store listing, in the app and here.</li>
+  <li>Android only. There is no iPhone version yet.</li>
+  <li>The free tier is one full 25/5 session a day. It runs to the end and is never cut
+  short — but it is one session, at one length.</li>
+</ul>
+
+<p>And the thing most study music pages will not tell you: <strong>if all you want is free
+instrumental music, a playlist genuinely works and costs nothing.</strong> The reason to
+use an app instead is the timer and the quiet around it. If you do not want those, you do
+not need this.</p>
+
+<div class="cta">
+  <p style="margin:0"><a href="https://play.google.com/store/apps/details?id=com.bloc.focus&amp;referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dno-ads">Get Bloc Focus Music on Google Play</a></p>
+  <p class="meta" style="margin:6px 0 0">No account, on any tier. Nothing is sold to you
+  while the timer is running.</p>
+</div>
+
+<h2>Related</h2>
+<p><a href="50-10-pomodoro.html">50/10 pomodoro, and why a long ratio needs a different
+music pool</a> · <a href="why-cant-i-focus-studying-at-home.html">Why you can't focus while
+studying at home</a> · <a href="/">Bloc Focus Music</a></p>
+
+</main>
+
+<footer>
+  <p>No cookie banner, because there are no cookies. No analytics, no trackers, no
+  webfonts — <em>this page</em> makes zero third-party requests. The app is not
+  identical and we will not pretend it is: it sends a few anonymous product events,
+  listed one by one in the <a href="privacy.html">privacy policy</a>.</p>
+</footer>
+
+</body>
+</html>

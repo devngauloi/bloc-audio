@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The stop condition in launch-spec §10.4 is "6 pages / 8 weeks, no page returned for
+     any query". That test only means something if the pages are crawlable at all, and a
+     page reachable by one link from the homepage is a page a crawler may or may not get
+     to. This file is the cheapest way to stop "not indexed" and "not ranking" from being
+     the same observation. It is served from this domain like everything else. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ikibook.com/</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://ikibook.com/why-cant-i-focus-studying-at-home.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://ikibook.com/study-music-no-ads.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://ikibook.com/50-10-pomodoro.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://ikibook.com/privacy.html</loc>
+    <lastmod>2026-08-26</lastmod>
+  </url>
+  <url>
+    <loc>https://ikibook.com/terms.html</loc>
+    <lastmod>2026-08-26</lastmod>
+  </url>
+</urlset>
