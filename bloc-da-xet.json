@@ -1,0 +1,128 @@
+{
+ "cap_nhat": "2026-09-05",
+ "muc": {
+  "lofi-chillhop-warm-study-2-f.mp3": {
+   "mood": "lofi",
+   "ket_luan": "loai",
+   "ly_do": "md5 trung ban dang live `lofi-chillhop-warm-study-f.mp3`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 231.3,
+    "md5": "21aee63134d078554dbc9d7534d6cd61"
+   }
+  },
+  "lofi-chillhop-warm-study-3-f.mp3": {
+   "mood": "lofi",
+   "ket_luan": "loai",
+   "ly_do": "doi chieu song r=0.99993 voi `lofi-chillhop-warm-study-f.mp3` — cung mot ban thu",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 231.3,
+    "md5": "78502885cb2f13549a76ea6fdd57a3fb",
+    "r": 0.99993
+   }
+  },
+  "chillhop-rainy-2-f.mp3": {
+   "mood": "ambient",
+   "ket_luan": "loai",
+   "ly_do": "md5 trung ban dang live `lo-fi-cyberpunk-cozy-study-2-f.mp3`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 252.8,
+    "md5": "5010a82fca04de460cb7571292ad1d93"
+   }
+  },
+  "chillhop-rainy-3-f.mp3": {
+   "mood": "ambient",
+   "ket_luan": "loai",
+   "ly_do": "md5 trung ban dang live `lo-fi-cyberpunk-cozy-study-f.mp3`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 252.8,
+    "md5": "667109a5c1524d73a38199939e47f1d8"
+   }
+  },
+  "lo-fi-cyberpunk-cozy-2-f.mp3": {
+   "mood": "ambient",
+   "ket_luan": "loai",
+   "ly_do": "md5 trung ban dang live `cyberpunk-noir-focus-2-f.mp3`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 248.2,
+    "md5": "19d8d9e815e721653fff909616c69a9a"
+   }
+  },
+  "lo-fi-cyberpunk-cozy-f.mp3": {
+   "mood": "ambient",
+   "ket_luan": "loai",
+   "ly_do": "md5 trung ban dang live `cyberpunk-noir-focus-f.mp3`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 248.2,
+    "md5": "786eccc25deb559cf35c9e9a948b6c16"
+   }
+  },
+  "lo-fi-cyberpunk-rainy-f.mp3": {
+   "mood": "ambient",
+   "ket_luan": "de-danh",
+   "ly_do": "dung duoc nhung dat sai cho: centroid 504 Hz => mood `rain`, dang nam trong `ambient`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 237.6,
+    "md5": "c45d71743de9671942e0ebdac25a05ef",
+    "lufs": -18.0,
+    "centroid": 503.9,
+    "mood_theo_do": "rain"
+   }
+  },
+  "chua-gan-nhan-2-f.mp3": {
+   "mood": "rain",
+   "ket_luan": "nhan",
+   "ly_do": "qua het bo loc",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 238.6,
+    "md5": "0554ef6c3a45d48adee9986957dc05a0",
+    "lufs": -18.0,
+    "centroid": 485.4,
+    "mood_theo_do": "rain"
+   }
+  },
+  "chua-gan-nhan-3-f.mp3": {
+   "mood": "rain",
+   "ket_luan": "de-danh",
+   "ly_do": "dung duoc nhung dat sai cho: centroid 631 Hz => mood `ambient`, dang nam trong `rain`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 212.1,
+    "md5": "3670c4696e9d0b14c09b2c618c65b654",
+    "lufs": -18.0,
+    "centroid": 630.6,
+    "mood_theo_do": "ambient"
+   }
+  },
+  "chua-gan-nhan-f.mp3": {
+   "mood": "rain",
+   "ket_luan": "de-danh",
+   "ly_do": "dung duoc nhung dat sai cho: centroid 578 Hz => mood `ambient`, dang nam trong `rain`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 271.4,
+    "md5": "e30eabe7f2399b5f1851d6e5486ff8d9",
+    "lufs": -18.0,
+    "centroid": 578.2,
+    "mood_theo_do": "ambient"
+   }
+  },
+  "chillhop-jazzy-f.mp3": {
+   "mood": "instrumental",
+   "ket_luan": "loai",
+   "ly_do": "md5 trung ban dang live `lo-fi-hopeful-rising-instrumental-f.mp3`",
+   "ngay": "2026-09-05",
+   "do": {
+    "do_dai": 223.6,
+    "md5": "ae76bd691c79bb9ddc295b70c81201fc"
+   }
+  }
+ }
+}
