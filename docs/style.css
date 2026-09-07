@@ -142,3 +142,13 @@ footer {
 }
 
 nav a { margin-right: 18px; }
+
+/* Video link card. Deliberately a LINK, not an embed: every page here claims
+ * "zero third-party requests" in its footer and privacy.html says it loads no
+ * embeds. An iframe - youtube-nocookie included - would make both false. */
+.videocard img {
+  display: block; width: 100%; height: auto;
+  border-radius: 10px; border: 1.5px solid var(--ink);
+}
+.videocard p { margin: 12px 0 0; }
+.videocard > p > a { color: var(--ink); font-weight: 700; font-size: 18px; }
