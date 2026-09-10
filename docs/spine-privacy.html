@@ -1,0 +1,175 @@
+<!doctype html>
+<!--
+  Spine — privacy policy.
+
+  Google Play requires a PUBLIC URL, not an attachment. This file is
+  self-contained on purpose: no fonts, no scripts, no analytics, nothing
+  fetched from anywhere. A privacy policy that loads a third-party tracker is
+  a joke somebody eventually notices.
+
+  PUBLISHED AT https://ikibook.com/spine-privacy.html
+
+  ikibook.com is GitHub Pages served from `bloc-audio/docs/` (that repo holds
+  the CNAME). Deploying is copying this file to `bloc-audio/docs/
+  spine-privacy.html` and pushing — there is no build step.
+
+  ** THIS FILE IS THE SOURCE. The copy in bloc-audio is a deployment artefact.
+  Edit here, copy there, or the two drift and the public one wins by default.
+
+  Conventions taken from the pages already on that domain, not invented:
+  numbered <h2> sections, a canonical link, OG tags so a pasted link does not
+  render as a bare grey URL, and workoutplayapp@gmail.com as the contact — the
+  same address the site's other pages use. And no webfont and no CDN, for the
+  reason bloc-audio/docs/style.css gives about itself: a privacy policy that
+  phones out to Google for a font refutes itself in the network tab.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Spine</title>
+<meta name="description" content="Spine collects nothing. No account, no sync, no analytics, no ads — and the three moments it touches the network, named one by one.">
+<link rel="canonical" href="https://ikibook.com/spine-privacy.html">
+<meta name="theme-color" content="#F7F5F0">
+
+<!-- Someone will paste this URL into a forum or a support thread. Without
+     these it renders as a bare grey link. No image is referenced because this
+     project has no og.png on that domain yet, and pointing at one that 404s is
+     worse than pointing at none. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Spine">
+<meta property="og:url" content="https://ikibook.com/spine-privacy.html">
+<meta property="og:title" content="Privacy Policy — Spine">
+<meta property="og:description" content="Spine collects nothing. No account, no sync, no analytics, no ads.">
+<meta name="twitter:card" content="summary">
+<style>
+  :root {
+    --bg: #F7F5F0; --ink: #201B16; --body: #3A322A;
+    --meta: #6E6154; --line: #E2DCD1; --accent: #4A3670;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16120E; --ink: #F2EDE4; --body: #D8D0C4;
+      --meta: #9C9184; --line: #2E2721; --accent: #CBB9E8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px 80px; background: var(--bg); color: var(--body);
+    font: 16px/1.65 Georgia, "Times New Roman", serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { color: var(--ink); font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+  h2 { color: var(--ink); font-size: 1.15rem; margin: 2.4rem 0 .6rem; }
+  .date { color: var(--meta); font-size: .9rem; margin: 0 0 2.5rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  strong { color: var(--ink); }
+  a { color: var(--accent); }
+  .lead {
+    border-left: 3px solid var(--accent); padding-left: 1rem; margin: 2rem 0;
+    font-size: 1.05rem; color: var(--ink);
+  }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
+    color: var(--meta); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Spine — Privacy Policy</h1>
+<p class="date">Effective 10 September 2026</p>
+
+<p class="lead">
+  Spine collects nothing. There is no account, no sign-in, no cloud sync, no
+  advertising and no analytics. We do not operate a server that receives your
+  data, so there is nothing for us to collect, sell, or lose.
+</p>
+
+<h2>What stays on your device</h2>
+<p>Everything Spine makes lives in the app's own storage on your phone:</p>
+<ul>
+  <li>the books you add — Spine keeps <strong>a copy</strong>, and your original file is never touched</li>
+  <li>your reading position, highlights and notes</li>
+  <li>your settings: typeface, size, theme, voice</li>
+  <li>any pronunciations you teach it</li>
+</ul>
+<p>
+  None of it leaves your device unless <em>you</em> tap Export and choose where
+  to save it.
+</p>
+
+<h2>When Spine uses the network</h2>
+<p>Spine asks for internet permission for exactly three things, and you start
+all three:</p>
+<ul>
+  <li><strong>Browsing and downloading from an OPDS catalogue</strong> — Project
+      Gutenberg, Standard Ebooks, or your own Calibre content server — when you
+      open Sources and tap.</li>
+  <li><strong>Downloading a voice</strong>, when you choose one in
+      Settings › Voice. The voice file comes from a public repository; nothing
+      about you is sent with the request.</li>
+  <li><strong>Look Up</strong>, which hands the selected word to another app on
+      your device that you pick. Spine does not send it anywhere itself.</li>
+</ul>
+<p>
+  Outside those, Spine does not connect. It does not call home at launch, check
+  for updates, or send crash reports.
+</p>
+<p>
+  One detail worth stating plainly: a <strong>Calibre</strong> server on your own
+  network is normally reached over plain HTTP, because that is how Calibre
+  publishes it. That traffic is unencrypted on your local network. Catalogues on
+  the internet are reached over HTTPS.
+</p>
+
+<h2>Reading aloud</h2>
+<p>
+  Spine reads with voices <strong>on your device</strong>. Many phones also offer
+  voices that synthesise on a server; Spine actively refuses those and uses only
+  on-device voices — because reading a book aloud through a network voice means
+  sending the text of that book to someone else's computer, sentence by
+  sentence.
+</p>
+
+<h2>Payment</h2>
+<p>
+  Spine is sold once, through <strong>Google Play</strong>. Google handles the
+  payment. We never see your card, your address, or your identity. Google tells
+  the app one thing: whether this account has bought it.
+</p>
+<p>Google's own policies cover how they handle payment data.</p>
+
+<h2>Children</h2>
+<p>
+  Spine is not directed at children under 13, and collects no data from anyone,
+  of any age.
+</p>
+
+<h2>Deleting your data</h2>
+<p>
+  There is nothing held on our side to request the deletion of. Uninstalling
+  Spine removes everything it keeps on your device. You can Export your
+  highlights and notes first if you want to take them with you.
+</p>
+
+<h2>Changes</h2>
+<p>
+  If this policy changes, the new version appears at this address with a new
+  effective date.
+</p>
+
+<h2>Contact</h2>
+<p>
+  <a href="mailto:workoutplayapp@gmail.com">workoutplayapp@gmail.com</a>
+</p>
+
+<footer>
+  This page loads no fonts, no scripts and no third-party resources of any kind.
+</footer>
+
+</main>
+</body>
+</html>
